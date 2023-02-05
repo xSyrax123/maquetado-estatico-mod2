@@ -1,0 +1,176 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #000;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #f8f8f8;
+}
+
+.header-top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 10vh;
+  padding: 20px 60px;
+}
+
+nav {
+  font-size: 20px;
+}
+
+nav a {
+  color: #f8f8f8;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-left: 15px;
+}
+
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding: 25vh 40vh;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  letter-spacing: 1px;
+}
+
+.description span {
+  color: red;
+}
+
+h1 {
+  padding-top: 15px;
+}
+
+.about-me {
+  color: #b2c0d0;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+img {
+  clip-path: circle();
+}
+
+.welcome {
+  font-size: 18px;
+}
+
+.education {
+  color: #f8f8f8;
+}
+
+.box-card-education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40vh;
+}
+
+.card-education {
+  display: flex;
+  padding-top: 30px;
+}
+
+.education img {
+  height: 400px;
+  width: 400px;
+}
+
+.hard-soft-skills {
+  color: #f8f8f8;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.progress-bar {
+  background-color: #333;
+  height: 20px;
+  width: 300px;
+  padding: 3px;
+  margin: 0 auto;
+}
+
+.html5 div {
+  background-color: green;
+  width: 90%;
+  height: 100%;
+}
+
+.css3 div {
+  background-color: green;
+  width: 50%;
+  height: 100%;
+}
+
+.javascript div {
+  background-color: green;
+  width: 65%;
+  height: 100%;
+}
+
+.typescript div {
+  background-color: green;
+  width: 15%;
+  height: 100%;
+}
+
+.angular div {
+  background-color: green;
+  width: 15%;
+  height: 100%;
+}
+
+.assertive-communication div,
+.adaptability div,
+.critical-analytical-thinking div,
+.punctuality div,
+.responsibility div {
+  background-color: green;
+  width: 100%;
+  height: 100%;
+}
+
+.proyects {
+  color: #f8f8f8;
+  padding-top: 35px;
+  text-align: center;
+}
+
+.box-proyects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px 0;
+}
+
+.proyect {
+  border: medium solid #999;
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+footer {
+  color: white;
+  justify-self: flex-end;
+  text-align: center;
+  padding: 10px;
+}
